@@ -84,14 +84,9 @@
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
                 <EditText
                     android:id="@+id/interestPeriodInput"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:autofillHints="Period"
                     android:ems="10"
@@ -99,40 +94,7 @@
                     android:inputType="number"
                     android:labelFor="@id/interestPeriodHeader"
                     android:padding="16dp"
-                    android:textAlignment="center"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/interestPeriodUnit"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <Spinner
-                    android:id="@+id/interestPeriodUnit"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="end"
-                    android:padding="16dp"
-                    android:spinnerMode="dialog"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@id/interestPeriodInput"
-                    app:layout_constraintTop_toTopOf="parent" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <TextView
-                android:id="@+id/paymentFrequencyHeader"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/paymentFrequencyHeader"
-                android:textAlignment="center"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
-
-            <Spinner
-                android:id="@+id/paymentFrequencyInput"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:padding="16dp"
-                android:spinnerMode="dialog"
-                android:textAlignment="center"/>
+                    android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/amortizationPeriodHeader"
@@ -142,14 +104,9 @@
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
                 <EditText
                     android:id="@+id/amortizationPeriodInput"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:autofillHints="Period"
                     android:ems="10"
@@ -157,26 +114,9 @@
                     android:inputType="number"
                     android:labelFor="@id/interestPeriodHeader"
                     android:padding="16dp"
-                    android:textAlignment="center"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/amortizationPeriodUnit"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    android:textAlignment="center" />
 
-                <Spinner
-                    android:id="@+id/amortizationPeriodUnit"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="end"
-                    android:padding="16dp"
-                    android:spinnerMode="dialog"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@id/amortizationPeriodInput"
-                    app:layout_constraintTop_toTopOf="parent" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <com.google.android.material.materialswitch.MaterialSwitch
+            <!-- <com.google.android.material.materialswitch.MaterialSwitch
                 android:id="@+id/lumpSumSwitch"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -218,7 +158,7 @@
                     app:layout_constraintStart_toEndOf="@id/additionalPaymentAmount"
                     app:layout_constraintTop_toTopOf="parent" />
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout> -->
 
 
         </LinearLayout>
