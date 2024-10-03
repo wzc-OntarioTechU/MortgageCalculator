@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Mortgage Calculator</string>
+    <string name="principalHeader">Principal Amount</string>
+    <string name="interestHeader">Interest Rate</string>
+    <string name="interestPeriodHeader">Interest Period Length</string>
+    <string name="paymentFrequencyHeader">Payment Frequency</string>
+    <string name="amortizationPeriodHeader">Amortization Period Length</string>
+    <string name="lumpSumSwitch">Will you be making additional payments?</string>
+    <string name="additionalPaymentAmountHint">Additional Amount</string>
+    <string name="repeatPaymentHeader">Periodic Payment Amount:</string>
+    <string name="paymentTotalHeader">Total payments:</string>
+    <string name="interestingTotalPaidHeader">Total Interest Paid:</string>
+    <string name="principalTotalPaidHeader">Total Principal Paid:</string>
+    <string name="finalBalanceHeader">Remaining Balance:</string>
+    <string name="calculateBtn">Calculate</string>
+    <string name="backBtn">Return</string>
+    <string-array name="paymentFrequencyOpts">
+        <item>Weekly</item>
+        <item>Bi-Weekly</item>
+        <item>Monthly</item>
+        <item>Bi-Monthly</item>
+        <item>Quarterly</item>
+        <item>Annually</item>
+        <item>Bi-Annually</item>
+    </string-array>
+    <string-array name="timePeriodOpts">
+        <item>Day(s)</item>
+        <item>Weeks(s)</item>
+        <item>Month(s)</item>
+        <item>Year(s)</item>
+    </string-array>
+</resources>
